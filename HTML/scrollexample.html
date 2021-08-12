@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="G:\PracticeProject\Scrollspy\css\scroexample1.css">
+    <link rel="stylesheet" href="G:\PracticeProject\Scrollspy\css\Bootstrap.css">
+    <title>Scrollspy</title>
+</head>
+<body>
+    <div data-spy="scroll" data-target="#myScrollspy" data-offset="1">
+
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-sm-3 col-4 m-3 bg-light content">
+            <nav  id="myScrollspy" >
+              <ul class="nav flex-column">
+                <li class="nav-item">
+                    <a class="nav-link" href="#section1">
+                        <h4>Css Interview Questions</h4>
+                  </a>
+                <li class="nav-item">
+                  <a class="nav-link" href="#section1">1.What is the Box model in CSS?
+                </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#section2">Questin-2</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#section3">Question-3</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#section4">Questin-4
+                  </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#section2">Section 2</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#section3">Section 3</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#section4">1.What is the Box model in CSS?
+                  </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#section2">Section 2</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#section3">Section 3</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#section1">1.What is the Box model in CSS?
+                  </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#section2">Section 2</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#section3">Section 3</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#section1">1.What is the Box model in CSS?
+                  </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#section2">Section 2</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#section3">Section 3</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#section1">1.What is the Box model in CSS?
+                  </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#section2">Section 2</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#section3">Section 3</a>
+                  </li>
+              </ul>
+            </nav>
+        </div>
+            <div class="col-sm-8 col-8 m-3">
+              <div id="section1">    
+                <h3>
+                    1. What is the Box model in CSS? Which CSS properties are a part of it?
+                </h3>
+                <p>
+                    A rectangle box is wrapped around every HTML element. The box model is used to determine the height and width of the rectangular box. The CSS Box consists of Width and height (or in the absence of that, default values and the content inside), padding, borders, margin.
+                </p>
+                
+                <img class="m-3" src="G:\PracticeProject\Scrollspy\images\box.jpg" width="80%" height="400px">
+                <ol>
+                    <li>
+                        <p><strong>Content:</strong> Actual Content of the box where the text or image placed.</p>
+                    </li>
+                    <li>
+                        <p><strong>Content:</strong> Actual Content of the box where the text or image placed.</p>
+                    </li>
+                    <li>
+                        <p><strong>Content:</strong> Actual Content of the box where the text or image placed.</p>
+                    </li>
+                    <li>
+                        <p><strong>Content:</strong> Actual Content of the box where the text or image placed.</p>
+                    </li>
+                </ol>
+              </div>
+              <div id="section2"> 
+                <h3>
+                    2. What are the advantages of using CSS?
+                </h3>
+                <p>
+                    The main advantages of CSS are given below:
+                </p>
+                <ol>
+                    <li>
+                        <p>
+                            <strong>Separation of content from presentation -</strong>
+                            CSS provides a way to present the same content in multiple presentation formats in mobile or desktop or laptop.
+
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <strong>Separation of content from presentation -</strong>
+                            CSS provides a way to present the same content in multiple presentation formats in mobile or desktop or laptop.
+
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <strong>Separation of content from presentation -</strong>
+                            CSS provides a way to present the same content in multiple presentation formats in mobile or desktop or laptop.
+
+                        </p>
+                    </li>
+                </ol>
+              </div>        
+              <div id="section3">         
+                <h3>3. What are the limitations of CSS?</h3>
+                <pre>
+                    ul {
+                        line-style: none;
+                        border: solid 1px #ccc;
+                      }
+                </pre>
+                <p>Try to scroll this section and look at the navigation list while scrolling!</p>
+              </div>
+              <div id="section4">         
+                <h3>
+                    4. What is progressive rendering? How do you implement progressive rendering in the website?. What are the advantages of it
+                </h3>
+                <p>
+                    Progressive rendering is the name given to techniques used to improve the performance of a webpage (in particular, improve perceived load time) to render content for display as quickly as possible.
+                </p><br>
+                <p>
+                    We can implement the progressive rendering of the page by loading the lazy loading of the images.  We can use Intersection Observer API to lazy load the image. The API makes it simple to detect when an element enters the viewport and take an action when it does. Once the image enters the viewport, we will start loading the images.
+                </p>
+                <pre>
+                    <img class="lazy"
+src="placeholder-image.jpg"
+data-src="image-to-lazy-load-1x.jpg"
+data-srcset="image-to-lazy-load-2x.jpg 2x, image-to-lazy-load-1x.jpg 1x"
+alt="I'm an image!">
+
+document.addEventListener("DOMContentLoaded", function() {
+  var lazyImages = [].slice.call(document.querySelectorAll("img.lazy"));
+
+  if ("IntersectionObserver" in window) {
+    let lazyImageObserver = new IntersectionObserver(function(entries, observer) {
+      entries.forEach(function(entry) {
+        if (entry.isIntersecting) {
+          let lazyImage = entry.target;
+          lazyImage.src = lazyImage.dataset.src;
+          lazyImage.srcset = lazyImage.dataset.srcset;
+          lazyImage.classList.remove("lazy");
+          lazyImageObserver.unobserve(lazyImage);
+        }
+      });
+    });
+
+    lazyImages.forEach(function(lazyImage) {
+      lazyImageObserver.observe(lazyImage);
+    });
+  } else {
+    // Possibly fall back to event handlers here
+  }
+});
+                </pre>
+
+                <p>Try to scroll this section and look at the navigation list while scrolling!</p>
+              </div>      
+              <div id="section42">         
+                <h1>Section 4-2</h1>
+                <p>Try to scroll this section and look at the navigation list while scrolling!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+</body>
+</html>

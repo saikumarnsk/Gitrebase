@@ -1,0 +1,29 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+ul{
+    position: fixed;
+  }
+  li{
+      padding: 10px;
+  }
+  li a{
+      color: black;
+  }
+  a:hover{
+      background-color: azure;
+  }
+  .content{
+    overflow-y: scroll;
+    width: 100%;
+    height: auto;
+  }
+pre{
+    border: 1px solid blue;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(156, 222, 224);
+}
